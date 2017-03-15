@@ -1228,7 +1228,7 @@ footer.comment-footer:after,
 }
 
 .banner-custom-header .site-banner-header h1:before {
-	background-color: #678db8;
+	/*background-color: #678db8;*/
 	content: "";
 	display: block;
 	height: 8px;
@@ -1608,6 +1608,7 @@ footer.comment-footer:after,
 	width: 50%;
 }
 
+/*
 .posts .entry-inner:before {
 	color: #abb7c3;
 	content: "\f100";
@@ -1624,17 +1625,21 @@ footer.comment-footer:after,
 	width: 50px;
 	z-index: 5;
 }
+*/
 
+/*
 .posts .format-image .entry-inner:before {
 	content: "\f102";
 	font-size: 2.5rem;
 }
+*/
 
 .posts .sticky .entry-inner:before {
 	content: "\f408";
 	font-size: 2.5rem;
 }
 
+/*
 .posts .entry-inner:after {
 	background-color: #ffffff;
 	border-radius: 50px;
@@ -1648,6 +1653,7 @@ footer.comment-footer:after,
 	top: 50%;
 	width: 50px;
 }
+*/
 
 .posts .entry-inner-content {
 	border-bottom: 3px solid #fff;
@@ -1962,6 +1968,7 @@ body:not(.has-post-thumbnail).is-singular .entry-inner,
 	top: 0;
 }
 
+/*
 .is-singular .entry-inner:after,
 .error404 .entry-inner:after,
 .page-template-eventbrite-index .page-header:after,
@@ -1972,7 +1979,9 @@ body:not(.has-post-thumbnail).is-singular .entry-inner,
 	margin: -18px 0 0 -18px;
 	width: 36px;
 }
+*/
 
+/*
 .is-singular .entry-inner:before,
 .error404 .entry-inner:before,
 .page-template-eventbrite-index .page-header:before,
@@ -1986,15 +1995,18 @@ body:not(.has-post-thumbnail).is-singular .entry-inner,
 	width: 36px;
 	z-index: 4;
 }
+*/
 
 .error404 .entry-inner:before {
 	content: "\f400";
 }
 
+/*
 .single-format-image .entry-inner:before {
 	content: "\f102";
 	font-size: 2rem;
 }
+*/
 
 /* entry header */
 
@@ -4546,4 +4558,14 @@ div.notes{
 
 span.title-text{
 	display: none;
+}
+
+div.webcom-button{
+	margin: 20px auto auto auto;
+	padding: 5px 0px;
+	width: 200px;
+	background-color: #678db8;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
 }
